@@ -162,3 +162,22 @@ a {
   text-decoration: none !important;
   color: #fff !important;
 }
+
+/* Light theme styles */
+.center-container.light #display {
+  color: #000; /* Text color in light mode */
+}
+
+/* Night theme styles */
+.center-container.night #display {
+  color: #fff; /* Text color in night mode (default or white) */
+}
+
+/* Placeholder colors */
+#display::placeholder {
+  color: #000; /* Placeholder for light mode */
+}
+
+.center-container.night #display::placeholder {
+  color: #fff; /* Placeholder for night mode */
+}
